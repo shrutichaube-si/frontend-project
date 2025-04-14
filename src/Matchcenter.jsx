@@ -139,11 +139,12 @@ function Matchcenter() {
         </p>
         <div className="news-header">
           <p className="news">News</p>
-          <img src="/src/share.svg" className="shareImg" />
+          {/* <img src="/src/share.svg" className="shareImg" /> */}
+          <img src="share.svg" className="shareImg" />
         </div>
       </div>
-      <img src="/src/team.png" className="card-image" />
-     
+      {/* <img src="/src/team.png" className="card-image" /> */}
+      <img src="team.png" className="card-image" />
     </div>
    
 
@@ -155,10 +156,12 @@ function Matchcenter() {
         </p>
         <div className="news-header">
           <p className="news">News</p>
-          <img src="/src/share.svg" className="shareImg" />
+          {/* <img src="/src/share.svg" className="shareImg" /> */}
+          <img src="share.svg" className="shareImg" />
         </div>
       </div>
-      <img src="/src/team.png" className="card-image" />
+      {/* <img src="/src/team.png" className="card-image" /> */}
+      <img src="team.png" className="card-image" />
      
     </div>
   
@@ -169,7 +172,8 @@ function Matchcenter() {
         </p>
         <div className="news-header">
           <p className="news">News</p>
-          <img src="/src/share.svg" className="shareImg" />
+          {/* <img src="/src/share.svg" className="shareImg" /> */}
+          <img src="share.svg" className="shareImg" />
         </div>
       </div>
       <img src="/src/team.png" className="card-image" />
