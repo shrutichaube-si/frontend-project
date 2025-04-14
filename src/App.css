@@ -1,0 +1,446 @@
+.match-container {
+  background-image: 
+  linear-gradient(rgba(226, 47, 167, 0.7), rgba(76, 53, 229, 0.7)),
+  url(mobile.svg);
+  padding: 20px;
+  color: white;
+  max-width: 375px;
+  margin: 0 auto;
+  
+}
+
+.match-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.match-info {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ball-icon {
+  width: 25px;
+  height: 25px;
+  opacity: 0.7;
+}
+
+.match-title {
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.match-time {
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+.match-status {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 61.36px;
+  height: 23.81px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: green;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-left: 50%;
+  
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.status-text {
+  color: white;
+  font-size: 13px;
+  padding-left: 15px;
+  font-weight: 800;
+}
+
+.score-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.team {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-logo img {
+  width: 40px;
+  height: 40px;
+  
+}
+.team-logo.color{
+  border: 4px solid purple;
+}
+.team-short {
+  color: #333;
+  transform: scaleY(1.5);
+  font-size: 20px;
+}
+
+.team-score {
+  text-align: center;
+}
+
+.main-score {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  color: white;
+}
+
+.sub-score {
+  font-size: 13px;
+  margin: 2px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.overs {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.vs {
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: lowercase;
+  background-color:  rgba(128, 128, 128, 0.1);
+
+}
+
+.match-summary {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: white;
+  padding: 0 20px;
+}
+
+.venue {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+
+.venue-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+  
+}
+
+
+
+.section-header {
+  margin-bottom: 16px;
+  color: white;
+  
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+.players {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 4px ;
+  margin-bottom: 8px;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.player-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+}
+
+.player-score {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.highlight {
+  color: #E50695;;
+  font-weight: 900;
+}
+.latestUpdates-container {
+  padding: 20px;
+  color: black;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.news{
+  color: grey;
+}
+.news-card {
+  padding-top: 20px;
+}
+
+.main-card {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+ 
+}
+
+.main-card .mainImg {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  border-bottom: #7C35E5;
+}
+
+.news-card-primary .main-card:nth-child(2){
+  display: none;
+}
+.sub-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.1);
+  margin-bottom: 10px;
+}
+
+.sub-cards .card-content {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.sub-cards .card-image {
+  width: 127px;
+  height: 96px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.news-text {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  border-right: red;
+}
+.bottom-border {
+  height: 4px;
+  width: 80%;
+  background: linear-gradient(to right, #3e2efc, #f901b4);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.shareImg {
+  height: 20px;
+  width: 20px;
+}
+
+.more-button {
+  color: #E50695;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) {
+  .match-container,
+  .latestUpdates-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .match-container {
+    background-image: 
+  linear-gradient(rgba(226, 47, 167, 0.7), rgba(76, 53, 229, 0.7)),
+  url(tablet.svg);
+  }
+  .latestUpdates-container {
+    height: 700px;
+  }
+  .score-section {
+    justify-content: space-around;
+    gap: 24px;
+  }
+  .players {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .news-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .news-card-primary .main-card:nth-child(2){
+    display: block;
+  }
+  .main-card {
+    width: 100%;
+    padding: 20px;
+  }
+  .news-card-primary{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+  }
+  .news-card-secondary{
+    display: flex;
+    align-items: center;
+    gap:18px;
+    justify-content: space-between;
+  }
+  .sub-cards{
+    width: 100%;
+    gap:16%;
+    flex-direction: column-reverse;
+  }
+  .news-card-secondary .card-image{
+    width: 100%;
+    height: 100px;
+  }
+  news-header{
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .match-container,
+  .latestUpdates-container {
+    max-width: 2000px;
+    padding: 60px;
+    padding-left: 100px;
+  }
+  .match-container {
+    background-image: 
+  linear-gradient(rgba(226, 47, 167, 0.7), rgba(76, 53, 229, 0.7)),
+  url(desktop.svg);
+  }
+  .latestUpdates-container {
+    height: 900px;
+  }
+  .score-section {
+    padding: 24px;
+    gap: 40px;
+  }
+
+  .news-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+.players-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+
+.news-card-primary .main-card:nth-child(2){
+  display: block;
+}
+.news-card-primary{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:16px
+}
+.main-card{
+  width: 600px;
+  padding: 20px;
+}
+.players-data .players-section{
+width: 43%;
+}
+.news-card-secondary{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-card-secondary .card-image{
+  width: 100%;
+  height: 200px;
+}
+.sub-cards{
+  width: 100%;
+  flex-direction: column-reverse;
+}
+.main-card .news-text{
+  bottom: 50px;
+}
+
+}
