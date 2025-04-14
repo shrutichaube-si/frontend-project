@@ -4,7 +4,7 @@ function Matchcenter() {
       <div className="match-container">
         <div className="match-header">
           <div className="match-info">
-            <img src="src/Ball Icon.svg" alt="" className="ball-icon" />
+            <img src="src/ball.svg" alt="" className="ball-icon" />
             <span className="match-title">MATCH 4, SUNRISERS HYDERABAD VS RAJASTHAN ROYALS</span>
           </div>
           <p className="match-time">APR 02, 2023 | 7:30 PM IST</p>
@@ -20,7 +20,7 @@ function Matchcenter() {
         <div className="score-section">
           <div className="team">
           <div class="team-logo color">
-            <img src="src/Team Logo.svg" />
+            <img src="src/teamss.svg" />
            </div>
             <div className="team-score">
               <p className="main-score">108/2 <span className="overs">(20)</span></p>
@@ -31,7 +31,7 @@ function Matchcenter() {
           <div className="vs">vs</div>
           <div className="team">
           <div class="team-logo">
-            <img src="src/Team Logo.svg" />
+            <img src="src/teamss.svg" />
            </div>
             <div className="team-score">
               <p className="main-score">108/2 <span className="overs">(20)</span></p>
@@ -46,7 +46,7 @@ function Matchcenter() {
         </div>
   
         <div className="venue">
-          <img src="src/Stadium Icon.svg" alt="" className="venue-icon" />
+          <img src="src/stadium.svg" alt="" className="venue-icon" />
           Rajiv Gandhi International Stadium, Hyderabad
         </div>
          <div className="players-data">
